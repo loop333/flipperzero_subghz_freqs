@@ -1,0 +1,1 @@
+# flipperzero_subghz_freqs
