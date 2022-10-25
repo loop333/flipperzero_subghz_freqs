@@ -25,7 +25,7 @@ while 1:
     l = re_ansi.sub('', l)
 
     if l == '>: ':
-        s.write(b'log\r')
+        s.write(b'log debug\r')
 
     if '[D][BtGap] set_non_discoverable success' in l:
         continue
